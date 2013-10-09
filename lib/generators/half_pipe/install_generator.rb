@@ -60,7 +60,7 @@ module HalfPipe
 
       def patch_sass_imports
         # TODO: Remove this once https://github.com/chriseppstein/sass-css-importer/pull/6 is accepted and released
-        gem "sass-css-importer", github: "joefiorini/sass-css-importer", branch: "load-paths"
+        gem "sass-css-importer", git: "https://github.com/joefiorini/sass-css-importer.git", branch: "load-paths"
       end
 
       def install_dependencies
